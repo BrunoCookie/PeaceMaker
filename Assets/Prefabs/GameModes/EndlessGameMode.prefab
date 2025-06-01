@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5812944274152720240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5812944274152720242}
+  - component: {fileID: 6509567933193530854}
+  - component: {fileID: 5812944274152720205}
+  m_Layer: 0
+  m_Name: EndlessGameMode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5812944274152720242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5812944274152720240}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6509567933193530854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5812944274152720240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f36093f2a6c6a40b6385a64861b030, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  brain: {fileID: 0}
+  mate: {fileID: 858108074339913545, guid: 65ce3148b4d6a0244a278c6285085e83, type: 3}
+  spawnRails:
+  - {fileID: 0}
+  mateSpotsParent: {fileID: 0}
+  wavesList: []
+  enemiesList: []
+  playerHealth: 0
+  brainHealth: 0
+  mateSpots: []
+  fullShield: 0
+--- !u!114 &5812944274152720205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5812944274152720240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a686f38fa54e03c48a4636931be9634d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: 11400000, guid: 272034e91609aad4889b76c11a8b1d03, type: 2}
+  - {fileID: 11400000, guid: 7fbcca29df719244eb6d68daf569b1d7, type: 2}
+  slider: {fileID: 0}
+  fill: {fileID: 0}
+  bar: {fileID: 0}
+  currentMood: 0
+  onMoodChanged:
+    m_PersistentCalls:
+      m_Calls: []

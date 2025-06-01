@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SmileyWipe
+  m_Controller: {fileID: 9100000, guid: 3c7660372b98d2f498c85aec71ae2b50, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 578065288c88a66489f1051481f9ccf7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 967f6bdd2fa170f4088ae5e97fbb28d1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3af5df8a96babc14e9552f7fc41acd0a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 75a26ad6167c23d4bb0c3c15b9f33b44, type: 2}

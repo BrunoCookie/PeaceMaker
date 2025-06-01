@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3196652282771397171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3196652282771397170}
+  - component: {fileID: 3196652282771397169}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3196652282771397170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196652282771397171}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3196652282771397169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196652282771397171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de3fd1381f461849933ad104cdf6fd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playFirstOnAwake: 1
+  sounds:
+  - name: MainMenu
+    clip: {fileID: 8300000, guid: 433060ed4071b9542889a0e26d1c4bb3, type: 3}
+    volume: 0.05
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameTheme
+    clip: {fileID: 8300000, guid: 02eeea034d50e0849b4470fca8bca2f3, type: 3}
+    volume: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: BossMusic
+    clip: {fileID: 8300000, guid: 3c76cb5bae686b34fbab078c582940b4, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: BrainDamage
+    clip: {fileID: 8300000, guid: 92d5d086f4b3d8e47a416d47ac39c829, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyHurt
+    clip: {fileID: 8300000, guid: 0fe055205b9a227408d2cd7d1c8671cd, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossHurt
+    clip: {fileID: 8300000, guid: 61d79bd74706a7a4bb5dd1680bc4327f, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuHighlight
+    clip: {fileID: 8300000, guid: 7a02ba0dcbb49b646b052efa2b3c8a31, type: 3}
+    volume: 0.02
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuPressed
+    clip: {fileID: 8300000, guid: 624c6aaffdc370f49a8f5e14836d42e0, type: 3}
+    volume: 0.02
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MateCollect
+    clip: {fileID: 8300000, guid: faffd8143bf1e8041a91bd2ba8d56f31, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ShootSound
+    clip: {fileID: 8300000, guid: cbac259c740acae4fa2ce512d743bab2, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  mixer: {fileID: 24300002, guid: d6d73e4cdfdb19b44b197e3a00f408ad, type: 2}
